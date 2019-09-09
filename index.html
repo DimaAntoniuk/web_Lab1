@@ -24,7 +24,8 @@
       margin: 5px;
     }
     body{
-      margin: 17em;
+      margin-left: 17%;
+      margin-right: 17%;
     }
     p{
       line-height: 2em;
@@ -32,14 +33,15 @@
   </style>
 </head>
 <body>
-
-  <p>
-    You are here:
-    <a href = "index.html">Home</a>
-    <span>&#8227;</span>
-    <a href="#">Dive Into HTML5</a>
-    <span>&#8227;</span>
-  </p>
+  <header>
+    <p>
+      You are here:
+      <a href = "index.html">Home</a>
+      <span>&#8227;</span>
+      <a href="#">Dive Into HTML5</a>
+      <span>&#8227;</span>
+    </p>
+  </header>
   <h1 class='heading'>INTRODUCTION:<br>FIVE THINGS YOU SHOULD<br>
     KNOW ABOUT HTML5
   </h1>
@@ -48,7 +50,7 @@
     <h1>&#10087;</h1>
   </div>
   <h2 class="paragraph_heading">1. It's not one big thing</h2>
-  <img src="images/video.png" style="float:right">
+  <img src="images/video.png" style="float:right" alt="[video]">
   <p class="paragraph">
     You may well ask: “How can I start using HTML5 if older browsers don’t
     support it?” But the question itself is misleading. HTML5 is not one big
@@ -71,7 +73,7 @@
   </p>
 
   <h2 class="paragraph_heading">2. You don’t need to throw anything away</h2>
-  <img src="images/forms.png" style="float:left">
+  <img src="images/forms.png" style="float:left" alt="[forms]">
   <p class="paragraph">
     Love it or hate it, you can’t deny that HTML 4 is the most successful
     markup format ever. HTML5 builds on that success. You don’t need to throw
@@ -98,7 +100,7 @@
   </p>
 
   <h2 class="paragraph_heading">3. It’s easy to get started</h2>
-  <img src="images/markup-with-arrow.png">
+  <img src="images/markup-with-arrow.png" alt="[markup_with_arrow]">
   <p class="paragraph">
     “Upgrading” to HTML5 can be as simple as changing your doctype. The doctype
     should already be on the first line of every HTML page. Previous versions
@@ -117,7 +119,7 @@
   </p>
 
   <h2 class="paragraph_heading">4. It already works</h2>
-  <img src="images/rel-email.png" style="float:left">
+  <img src="images/rel-email.png" style="float:left" alt="[email]">
   <p class="paragraph">
     Whether you want to draw on a canvas, play video, design better forms, or
     build web applications that work offline, you’ll find that HTML5 is already
@@ -130,7 +132,7 @@
     HTML5 features in Internet Explorer 9.
     <br><br>
   </p>
-  <img src="images/gears.png" style="float:right">
+  <img src="images/gears.png" style="float:right" alt="[gears]">
   <p class="paragraph">
     Each chapter of this book includes the all-too-familiar browser
     compatibility charts. But more importantly, each chapter includes a frank
@@ -165,7 +167,7 @@
   </div>
   <div>
     <h4 class="question">DID YOU KNOW?</h4>
-    <img src="images\openclipart.org_johnny_automatic_bag_of_money.png" style="float:right">
+    <img src="images\openclipart.org_johnny_automatic_bag_of_money.png" style="float:right" alt="[bag_of_money]">
     <p class="summary">
       In association with Google Press, O’Reilly is distributing this book in
       a variety of formats, including paper, ePub, Mobi, and DRM-free PDF.
@@ -185,12 +187,14 @@
       <br><br><br>
     </p>
   </div>
-  <p align="center">
-    Copyright MMIX–MMXI <a href="#">Mark Pilgrim</a>
-  </p>
-  <div align="center">
-    <input type="search" size="25" placeholder="powered by Google™">
-    &nbsp;
-    <input type="submit" value="Search">
-  </div>
+  <footer>
+    <p align="center">
+      Copyright MMIX–MMXI <a href="#">Mark Pilgrim</a>
+    </p>
+    <div align="center">
+      <input type="search" size="25" placeholder="powered by Google™">
+      &nbsp;
+      <input type="submit" value="Search">
+    </div>
+  </footer>
 </body>
